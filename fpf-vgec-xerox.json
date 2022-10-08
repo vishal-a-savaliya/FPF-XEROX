@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fpf-vgex-xerox",
+  "private_key_id": "f62c1f9fe39f1ee078d7c057107d4d2285e6a66f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPnheqR85TaaH8\nhlSNdFm5n2YNVoJHX81g8ZQbVu329JEfwFvtASPWZl7SmEzvMeYaXnLzTkNJNYcj\nEAj/Q+4uUq8lohqlXMEQwdiKU7x+q2A3LJkMejZb0BMxQ8F/h50vPStcQ0DOh2Bu\n8uL3k9YrQXCWr7c37xXFKdyrlawjTObEBmlyA+fY8Ai4dQTjq6DRbptB9tk/Mzad\nJgCMKEX6uQVnw0XJ6G5Fhu72oqlZwM4vTPtw+7PUDUVcsuCsi79emj57gBN4Ffh8\nn+ciRPlZmABv7KXHPXc8h/YH9ZLLC5dsUcqAN4AxAxZJ81opQ4MZBUzHoGZw847O\nCY8jAekRAgMBAAECggEAK4uDeCX2Wt1Zab785exE019gxqRhz7mCuHYCs9dAMt8p\nvwiX3zYxf4raEX57CGIlWlt77Zb5GtY8wThgQrXLM3EJJjIBN7SkE7Esixqz+rdU\nB051zT2mwAv8soT9BRP6/kjsmr3KTmbrbWnI+9dIgKsJg7lYCsW9AazdiSlrwL1D\nuPgHkOz+ahEYHrVDxqcl2q2RzFugHvDwqN8WrjajJ6i1tjA097U000oM1qsic2MI\niw5F7lblRFD5sHlVBo1rykZrTljapsJDewnE+V1ifryFHco2xRSHFU3Qhbsvd88H\nbJlQ3YTQmUfirsCa0JJ/TDGDTQsYQsZ/h1bhX6ggDwKBgQD9OcD+KZn5CXamfXIs\nRrEXDfJplm0l3xc4iVru0aiFVt/thm+dP12OcwEkwQz6b+rycPs/bEiyck9H9aOr\nwa4mvKikJTeZwpoORFJDVxeWW7cr9OLYcPkwhm9G/89m4RaMTtIlLKVrNqehDkVz\nVPrkoAkWjkLRhIlztKZa1h0F0wKBgQDR5GrTRbiyqYbriqtXHF7BV3mdcNhLp9SO\npHin5lWsY9H9k0YiXTnzgh+5+WQ7y96FHGc6I84VRyRlNLezV1f9FDfq1eTHmlTY\nliCy/3VQ9g5GpqZzJLh4VFutsKX8elxPiddDrrSGfbuzF1HBvrhiwBPdYDyCN8Nz\nPdiivdwTCwKBgQCnX+M2m9zQBPdN+KDcryUibe+K5wjh/WFl1zQpop7W86MzZqaj\ns1xtaYqZ9phTeGI9OXx4YWRzvqa0k6JJRs2LgSuew5LKqRwWzgXpyMkocxrRjR3b\nnmC3OESZE0DNaX3z4613MNlt0kReagZxwvvK3hTjuchkoEwSFJfYdqncTQKBgGg4\ngYrSzfl5EFOZEac5oRtj8jFpPR2kAnmp1XeZeeUV08mT/XlGzWXKsTJJUaoXezCh\nf+hwqv4Jy1qtqKHWtwwlo/ZpqyYpzgOV2DrJellvNHuEeJYoH6kwSi2ez2zk3T1p\ndohXEbDOcgtlguUvbKMsOTDtfl4yjkyE4zM8DzEtAoGAdK17VKu9hm6T58aUkRt7\n9mOQZ2G2tzHlw2mHNfiLiI/rg+hHX2edwYOk2VT8zQWRbcrVv+f4L6GOHCDFfKvK\nG5epBrgz+9J61XiHPSvH35yUiNHTw7M66Hk9kOXWdEHzTpForB5X8YF7PfmJDx0J\n/xY+wx9/C0St7TTYp1qPuDg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fpf-vgec-xerox@fpf-vgex-xerox.iam.gserviceaccount.com",
+  "client_id": "115190744939690648956",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fpf-vgec-xerox%40fpf-vgex-xerox.iam.gserviceaccount.com"
+}
