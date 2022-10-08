@@ -17,9 +17,9 @@ const auth = new google.auth.GoogleAuth({
     scopes: "https://www.googleapis.com/auth/spreadsheets",
 });
 
-app.post("/", async (req, res) => {
+app.get("/done/:id", async (req, res) => {
 
-    const { row } = req.body;
+    const { row } = req.params.id;
 
     // const spreadsheetId = "1Pbg5NOzkWKCvHIp5bIqj0pjcxmRpxY8IbE3kWjU3Vns";
     const spreadsheetId = "11SEeWywXK5fOdxd82A6hKkE6m4GTpyf4M2yRfeP51Dw";
