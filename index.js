@@ -17,9 +17,9 @@ const auth = new google.auth.GoogleAuth({
     scopes: "https://www.googleapis.com/auth/spreadsheets",
 });
 
-app.get("/done/:id", async (req, res) => {
+app.post("/done", async (req, res) => {
 
-    const { id } = req.params;
+    const { id } = req.body.id;
 
     // console.log(id);
     // res.send(id);
