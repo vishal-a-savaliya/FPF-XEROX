@@ -1,5 +1,6 @@
 const express = require("express");
 const { google } = require("googleapis")
+const PORT = process.env.PORT || 8000
 
 const app = express();
 app.set("view engine", "ejs");
@@ -68,4 +69,4 @@ app.get("/data", async (req, res) => {
     res.send(getRows.data);
 })
 
-app.listen(3000, (req, res) => console.log("running on 3000"));
+app.listen(PORT, (req, res) => console.log("App is running"));
