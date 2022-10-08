@@ -47,8 +47,7 @@ app.post("/", async (req, res) => {
             values: [["DONE"]]
         }
     })
-
-    res.send("success");
+    res.send("SUCCESS");
 })
 
 
