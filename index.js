@@ -19,7 +19,10 @@ const auth = new google.auth.GoogleAuth({
 
 app.get("/done/:id", async (req, res) => {
 
-    const { row } = req.params.id;
+    const { id } = req.params;
+
+    // console.log(id);
+    // res.send(id);
 
     // const spreadsheetId = "1Pbg5NOzkWKCvHIp5bIqj0pjcxmRpxY8IbE3kWjU3Vns";
     const spreadsheetId = "11SEeWywXK5fOdxd82A6hKkE6m4GTpyf4M2yRfeP51Dw";
@@ -35,7 +38,7 @@ app.get("/done/:id", async (req, res) => {
     await googleSheets.spreadsheets.values.update({
         auth,
         spreadsheetId,
-        range: `sheet 1!B${row}`,
+        range: `sheet 1!B${id}`,
         valueInputOption: "USER_ENTERED",
         resource: {
             values: [["DONE"]]
