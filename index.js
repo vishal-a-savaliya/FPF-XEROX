@@ -4,9 +4,9 @@ const cors = require("cors");
 const PORT = process.env.PORT || 8000
 
 const app = express();
-app.set("view engine", "ejs");
-app.use(express.urlencoded({ extended: true }));
+
 app.use(cors());
+app.options('*', cors());
 
 app.get("/", (req, res) => {
     res.send("FPF-XEROX-API");
@@ -21,7 +21,7 @@ app.post("/done", async (req, res) => {
 
     const { id } = req.body.id;
 
-    // console.log(id);
+    console.log(id);
     // res.send(id);
 
     // const spreadsheetId = "1Pbg5NOzkWKCvHIp5bIqj0pjcxmRpxY8IbE3kWjU3Vns";
