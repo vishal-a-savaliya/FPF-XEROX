@@ -1,10 +1,12 @@
 const express = require("express");
 const { google } = require("googleapis")
+const cors = require("cors");
 const PORT = process.env.PORT || 8000
 
 const app = express();
 app.set("view engine", "ejs");
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
+app.use(cors());
 
 app.get("/", (req, res) => {
     res.send("FPF-XEROX-API");
