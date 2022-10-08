@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8000
 
 const app = express();
 app.set("view engine", "ejs");
-// app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
 app.get("/", (req, res) => {
@@ -31,17 +31,11 @@ app.post("/", async (req, res) => {
         auth: client
     });
 
-    const getRows = await googleSheets.spreadsheets.values.get({
-        auth,
-        spreadsheetId,
-        range: "sheet 1",
-    })
-
     // await googleSheets.spreadsheets.range("B2")
     await googleSheets.spreadsheets.values.update({
         auth,
         spreadsheetId,
-        range: `sheet 1!B${row + 1}`,
+        range: `sheet 1!B${row}`,
         valueInputOption: "USER_ENTERED",
         resource: {
             values: [["DONE"]]
